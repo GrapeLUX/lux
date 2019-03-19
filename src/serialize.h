@@ -24,7 +24,7 @@
 
 class CScript;
 
-static const unsigned int MAX_SIZE = 0x10000000; // Lux: Increase max serialized size to 256mb for SC support
+static const unsigned int MAX_SIZE = 0x02000000;
 
 /**
  * Used to bypass the rule against non-const reference to temporary
